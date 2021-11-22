@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Exo:wght@500&display=swap');
+
+
+#root{
+  background:rgb(69,39,160);
+}
+
+body{
+  background:rgb(69,39,160);
+}
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+
+
+
+.whole_container{
+  width: 90%;
+  height:fit-content;
+  transform: translate(-50%,-50%);
+  position:absolute;
+  top:50%;
+  left: 50%;
+  min-height:400px;
+  background:rgb(179,136,255);
+}
+
+
+.heading{
+  width:fit-content;
+  margin:20px auto;
+  font-size: 1.5rem;
+  font-weight: bolder;
+  letter-spacing:1px;
+  color:rgb(96,73,137);
+
+}
+
+.joke_button{
+  border: none;
+  width:fit-content;
+  margin: 20px auto;
+  padding: 4px 6px;
+  background:rgb(69,39,160);
+  color:white;
+  font-size:1rem;
+  box-shadow: 10px 2px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 10px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 10px 2px 5px 0px rgba(0,0,0,0.75);
+  transition: 0.2s all;
+}
+
+
+.joke_button:active{
+  box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+-webkit-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+-moz-box-shadow: 3px 2px 5px 0px rgba(0,0,0,0.75);
+}
+
+.joke_container h1{
+  width:fit-content;
+  margin: 2px auto;
+  letter-spacing: 2px;
+  font-size: 1.3rem;
+}
+
+.main p{
+  width:70%;
+  margin: 20px auto;
+  font-size: 1.5rem;
+  padding: 20px;
+color:rgb(44, 44, 44);
+  font-weight:bold;
+  font-family: 'Exo', sans-serif;
+  letter-spacing: 2px;
+}
+
+
+.main h3{
+  font-weight:normal;
+  padding:10px;
+  letter-spacing:2px;
+}
